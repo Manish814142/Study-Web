@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formarea{
+    width:100%;
+    height:100%; 
+    overflow: hidden;
+   /* background-image:linear-gradient(to right, #4ac2cd, #bdfff3);*/
+    background-image:linear-gradient(to right, #dcf8ef , #fee2f8);
+    margin:0px;
+    top: 0px;
+}
+#formbox{
+    width:350px;
+    height:450px;
+    
+    background-image:linear-gradient(to right, #9796f0, #fbc7d4);
+    margin-top:150px;
+    margin-left:500px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px;
+}
+#loginheader{
+    
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     background-image:linear-gradient(to right, #2193b0, #6dd5ed);
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+#user{
+    margin-top: 80px;
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow: 2px 2px 2px;
+    text-align: center;
+    
+}
+#login{
+    margin-top:-60px;
+}
+#pass{
+    margin-top:20px;
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow: 2px 2px 2px;
+    text-align: center;
+    
+}
+#user:focus,#pass:focus,#submit:focus{
+    outline: none;
+}
+#submit{
+    margin-top: 20px;
+    width:130px;
+        height:40px;
+    border-radius: 50px;
+     background-image:linear-gradient(to right, #2980b9, #6dd5fa);
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px;
+}
+#msg{
+    color:red;
+    padding-left: 10px;
+}
+#loginheader a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+}
+#loginheader h3{
+    border:none;
+    background-image:linear-gradient(to right, #cb356b, #bd3f32);
+    width:250px;
+    height:30px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top:10px;
+    padding-top:10px;line-height: -1px;
+}
+
+#error{
+    color: red;
+    margin-top:80px;
+}
